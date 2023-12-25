@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.stick-1 {
+  background-color: rgb(0, 218, 116);
+  animation: load 0.6s ease-in-out infinite;
+  transform: translate(-50%, -50%);
+}
+.anim {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 200px;
+  vertical-align: middle;
+}
+
+.stick-1 {
+  animation-delay: 0s;
+}
+.stick-2 {
+  animation-delay: 0.05s;
+}
+.stick-3 {
+  animation-delay: 0.1s;
+}
+.stick-4 {
+  animation-delay: 0.15s;
+}
+.stick-5 {
+  animation-delay: 0.2s;
+}
+.stick-6 {
+  animation-delay: 0.25s;
+}
+.stick-7 {
+  animation-delay: 0.3s;
+}
+.stick-8 {
+  animation-delay: 0.35s;
+}
+.stick-9 {
+  animation-delay: 0.4s;
+}
+.stick-10 {
+  animation-delay: 0.45s;
+}
+.stick-11 {
+  animation-delay: 0.5s;
+}
+.stick-12 {
+  animation-delay: 0s;
+}
+
+@keyframes load {
+  0% {
+    height: 50px;
+    width: 5px;
+    background-color: rgb(0, 218, 116);
+  }
+  50% {
+    height: 100px;
+    background-color: rgb(251, 255, 0);
+  }
+  100% {
+    height: 50px;
+    width: 5px;
+    background-color: rgb(0, 218, 116);
+  }
+}
